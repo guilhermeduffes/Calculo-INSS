@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    height: 50vh;
+    width: 70vw;
+    border: 1px solid blue;
+}
+
+.container h2 {
+    margin: 20px;
+}
+
+.paiInputs1{
+    width: 95%;
+    height: 17vh;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+input{
+    max-height: 19px;
+    max-width: 179px;
+}
+
+.paiBotoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+    border: 1px solid orange;
+}
+
+.paiInputs2{
+    width: 95%;
+    height: 17vh;
+    margin: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+
+
+
