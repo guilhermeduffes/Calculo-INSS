@@ -52,3 +52,12 @@ A condição 1 é de 0 ate 1302,00 reais
 A condição 2 é de 1302,01 ate 2571,29 reais
 A condição 3 é de 2571,30 ate 3856,94 reais
 A condição 4 é de 3856,95 ate mais de 7000 reais
+
+
+
+
+
+
+
+
+1232px

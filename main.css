@@ -4,10 +4,11 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     height: 100vh;
     width: 100vw;
-    background-color: aquamarine;
+    background: rgb(168, 204, 252);
+    background: linear-gradient(87deg, rgba(168, 204, 252, 1) 0%, rgba(194, 232, 251, 1) 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,18 +18,22 @@ body{
 .container {
     height: 50vh;
     width: 70vw;
-    border: 1px solid blue;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #fff;
+    border-radius: 25px;
 }
 
 .container h2 {
     margin: 20px;
 }
 
-.paiInputs1{
+.paiInputs1 {
     width: 95%;
     height: 17vh;
     margin: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,25 +41,27 @@ body{
     gap: 10px;
 }
 
-input{
+input {
     max-height: 19px;
     max-width: 179px;
 }
 
-.paiBotoes{
+.paiBotoes {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     margin: 20px;
-    border: 1px solid orange;
+    border: 2px solid black;
+    border-radius: 8px;
 }
 
-.paiInputs2{
+.paiInputs2 {
     width: 95%;
     height: 17vh;
     margin: 20px;
-    border: 1px solid black;
+    border: 2px solid black;
+    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -62,7 +69,3 @@ input{
     gap: 10px;
 
 }
-
-
-
-
