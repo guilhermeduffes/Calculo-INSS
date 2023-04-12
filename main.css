@@ -16,8 +16,9 @@ body {
 }
 
 .container {
+    position: relative;
     height: 50vh;
-    width: 70vw;
+    width: 65vw;
     border: 2px solid black;
     border-radius: 8px;
     background-color: #fff;
@@ -29,15 +30,15 @@ body {
 }
 
 .paiInputs1 {
-    width: 95%;
+    width: 35%;
     height: 17vh;
     margin: 20px;
-    border: 2px solid black;
     border-radius: 8px;
+    border: 2px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -47,25 +48,34 @@ input {
 }
 
 .paiBotoes {
+    width: 35%;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
     margin: 20px;
+    margin-top: 40px;
     border: 2px solid black;
     border-radius: 8px;
 }
 
+.paiBotoes button {
+    margin: 5px 0 5px 0 ;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+
 .paiInputs2 {
-    width: 95%;
-    height: 17vh;
-    margin: 20px;
+    position: absolute;
+    width: 35%;
+    left: 60%;
+    bottom: 51.5%;
     border: 2px solid black;
     border-radius: 8px;
     display: flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
 
 }
